@@ -1,0 +1,263 @@
+## 9.4 Nominal and effective interest rates (EMBJM)
+
+We have seen that although interest is quoted as a percentage per annum it can be compounded more than once a
+         year. We therefore need a way of comparing interest rates. For example, is an annual interest rate of
+         \(\text{8}\%\) compounded quarterly higher or lower than an interest rate of \(\text{8}\%\) p.a. compounded
+         yearly?
+
+## Nominal and effective interest rates
+
+2. Calculate the accumulated amount at the end of one year if \(\text{R}\,\text{1 000}\) is invested at
+                     \(\text{8}\%\) p.a. compound interest:
+   \begin{align*}
+                     A &= P(1 + i)^n \\
+                     &= \ldots \ldots
+                     \end{align*}
+4. Calculate the value of \(\text{R}\,\text{1 000}\) if it is invested for one year at \(\text{8}\%\)
+                     p.a. compounded:
+   | Frequency | Calculation | Accumulated amount | Interest amount |
+   | --- | --- | --- | --- |
+   | half-yearly | \(A = \text{1 000} \left( 1 + \frac{\text{0,08}}{2} \right)^{1 \times 2}\) | \(\text{R}\,\text{1 081,60}\) | \(\text{R}\,\text{81,60}\) |
+   | quarterly |  |  |  |
+   | monthly |  |  |  |
+   | weekly |  |  |  |
+   | daily |  |  |  |
+6. Use your results from the table above to calculate the effective rate that the investment of
+                     \(\text{R}\,\text{1 000}\) earns in one year:
+   | Frequency | Accumulated amount | Calculation | Effective interest rate |
+   | --- | --- | --- | --- |
+   | half-yearly | \(\text{R}\,\text{1 081,60}\) | \(\begin{aligned}
+                              \text{1 081,60} &= \text{1 000}(1 + i) \\
+                              \frac{\text{1 081,60}}{\text{1 000}} &= 1 + i \\
+                              \frac{\text{1 081,60}}{\text{1 000}} - 1 &= i \\
+                              \therefore i &= \text{0,0816}
+                              \end{aligned}\) | \(i = \text{8,16}\%\) |
+   | quarterly |  |  |  |
+   | monthly |  |  |  |
+   | weekly |  |  |  |
+   | daily |  |  |  |
+8. If you wanted to borrow \(\text{R}\,\text{10 000}\) from the bank, would it be better to pay it back at
+                  an interest rate of \(\text{22}\%\) p.a. compounded quarterly or \(\text{22}\%\) compounded monthly? Show
+                  your calculations.
+
+An interest rate compounded more than once a year is called the nominal interest rate. In the investigation
+         above, we determined that the nominal interest rate of \(\text{8}\%\) p.a. compounded half-yearly is actually
+         an effective rate of \(\text{8,16}\%\) p.a.
+
+Given a nominal interest rate \(i^{(m)}\) compounded at a frequency of \(m\) times per year and the effective
+         interest rate \(i\), the accumulated amount calculated using both interest rates will be equal so we can write:
+
+      \begin{align*}
+      P(1 + i) &= P \left( 1 + \frac{i^{(m)}}{m} \right)^m \\
+      \therefore 1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^m
+      \end{align*}
+
+<Callout type="tip" title="Worked example 15: Nominal and effective interest rates">
+**Question:**
+Interest on a credit card is quoted as \(\text{23}\%\) p.a. compounded monthly. What is the effective
+               annual interest rate? Give your answer correct to two decimal places.
+
+**Write down the known variables:**
+Interest is being added monthly, therefore:
+
+            \begin{align*}
+            m &= 12 \\
+            i^{(12)} &= \text{0,23}
+            \end{align*}
+
+
+\[1 + i = \left( 1 + \frac{i^{(m)}}{m} \right)^m\]
+
+**Substitute values and solve for \(i\):**
+\begin{align*}
+            1 + i &= \left( 1 + \frac{\text{0,23}}{12} \right)^{12} \\
+            \therefore i &= 1 - \left( 1 + \frac{\text{0,23}}{12} \right)^{12} \\
+            &= \text{25,59}\%
+            \end{align*}
+
+**Write the final answer:**
+The effective interest rate is \(\text{25,59}\%\) per annum.
+</Callout>
+
+<Callout type="tip" title="Worked example 16: Nominal and effective interest rates">
+**Question:**
+Determine the nominal interest rate compounded quarterly if the effective interest rate is \(\text{9}\%\)
+               per annum (correct to two decimal places).
+
+**Write down the known variables:**
+Interest is being added quarterly, therefore:
+
+            \begin{align*}
+            m &= 4 \\
+            i &= \text{0,09}
+            \end{align*}
+
+
+\[1 + i = \left( 1 + \frac{i^{(m)}}{m} \right)^m\]
+
+**Substitute values and solve for \(i^{(m)}\):**
+\begin{align*}
+            1 + \text{0,09} &= \left( 1 + \frac{i^{(4)}}{4} \right)^{4} \\
+            \sqrt[4]{\text{1,09}} &= 1 + \frac{i^{(4)}}{4} \\
+            \sqrt[4]{\text{1,09}} - 1 &= \frac{i^{(4)}}{4} \\
+            4 \left( \sqrt[4]{\text{1,09}} - 1 \right)&= i^{(4)}\\
+            \therefore i^{(4)} &= \text{8,71}\%
+            \end{align*}
+
+**Write the final answer:**
+The nominal interest rate is \(\text{8,71}\%\) p.a. compounded quarterly.
+</Callout>
+
+## Nominal and effect interest rates
+
+### Textbook Exercise 9.6
+
+Determine the effective annual interest rate if the nominal interest rate is:
+
+**Problem:**
+\(\text{12}\%\) p.a. compounded quarterly.
+
+**Solution:**
+\begin{align*}
+                     1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                     i &= \left( 1 + \frac{\text{0,12}}{4} \right)^{4} - 1 \\
+                     &= \left( \text{1,03} \right)^{4} - 1 \\
+                     &= \text{0,125508} \ldots \\
+                     \therefore i &\approx \text{12,6}\%
+                     \end{align*}
+
+**Problem:**
+\(\text{14,5}\%\) p.a. compounded weekly.
+
+**Solution:**
+\begin{align*}
+                     1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                     i &= \left( 1 + \frac{\text{0,145}}{52} \right)^{52} - 1 \\
+                     &= \text{0,155806} \ldots \\
+                     \therefore i &\approx \text{15,6}\%
+                     \end{align*}
+
+**Problem:**
+\(\text{20}\%\) p.a. compounded daily.
+
+**Solution:**
+\begin{align*}
+                     1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                     i &= \left( 1 + \frac{\text{0,2}}{\text{365}} \right)^{\text{365}} - 1 \\
+                     &= \text{0,221335} \ldots \\
+                     \therefore i &= \text{22,1}\%
+                     \end{align*}
+
+Consider the following:
+
+- \(\text{16,8}\%\) p.a. compounded annually.
+- \(\text{16,4}\%\) p.a. compounded monthly.
+- \(\text{16,5}\%\) p.a. compounded quarterly.
+
+**Problem:**
+Determine the effective annual interest rate of each of the nominal rates listed above.
+
+**Solution:**
+\begin{align*}
+                     1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                     i &= \left( 1 + \frac{\text{0,164}}{12} \right)^{12} - 1 \\
+                     &= \text{0,176906} \ldots \\
+                     \therefore i &= \text{17,7}\%
+                     \end{align*}
+                     \begin{align*}
+                     1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                     i &= \left( 1 + \frac{\text{0,165}}{4} \right)^{4} - 1 \\
+                     &= \text{0,175493}\ldots \\
+                     \therefore i &= \text{17,5}\%
+                     \end{align*}
+
+**Problem:**
+Which is the best interest rate for an investment?
+
+**Solution:**
+\(\text{17,7}\%\)
+
+**Problem:**
+Which is the best interest rate for a loan?
+
+**Solution:**
+\(\text{16,8}\%\)
+
+**Problem:**
+Calculate the effective annual interest rate equivalent to a nominal interest rate of
+                     \(\text{8,75}\%\) p.a. compounded monthly.
+
+**Solution:**
+\begin{align*}
+                  1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                  i &= \left( 1 + \frac{\text{0,0875}}{12} \right)^{12} - 1 \\
+                  &= \text{0,091095} \ldots \\
+                  \therefore i &= \text{9,1}\%
+                  \end{align*}
+
+**Problem:**
+Cebela is quoted a nominal interest rate of \(\text{9,15}\%\) per annum compounded every four
+                     months on her investment of \(\text{R}\,\text{85 000}\). Calculate the effective rate per annum.
+
+**Solution:**
+\begin{align*}
+                  1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                  i &= \left( 1 + \frac{\text{0,0915}}{3} \right)^{3} - 1 \\
+                  &= \text{0,094319} \ldots \\
+                  \therefore i &= \text{9,4}\%
+                  \end{align*}
+
+Determine which of the following would be the better agreement for paying back a student loan:
+
+**Problem:**
+\(\text{9,1}\%\) p.a. compounded quarterly.
+
+**Solution:**
+\begin{align*}
+                     1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                     i &= \left( 1 + \frac{\text{0,091}}{4} \right)^{4} - 1 \\
+                     &= \text{0,094152} \ldots \\
+                     \therefore i &= \text{9,42}\%
+                     \end{align*}
+
+**Problem:**
+\(\text{9}\%\) p.a. compounded monthly.
+
+**Solution:**
+\begin{align*}
+                     1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                     i &= \left( 1 + \frac{\text{0,09}}{12} \right)^{12} - 1 \\
+                     &= \text{0,093806} \ldots \\
+                     \therefore i &= \text{9,38}\%
+                     \end{align*}
+
+**Problem:**
+\(\text{9,3}\%\) p.a. compounded half-yearly.
+
+**Solution:**
+\begin{align*}
+                     1 + i &= \left( 1 + \frac{i^{(m)}}{m} \right)^{m} \\
+                     i &= \left( 1 + \frac{\text{0,093}}{2} \right)^{2} - 1 \\
+                     &= \text{0,095162} \ldots \\
+                     \therefore i &= \text{9,52}\%
+                     \end{align*}
+
+**Problem:**
+Miranda invests \(\text{R}\,\text{8 000}\) for \(\text{5}\) years for her son's study fund.
+                     Determine how much money she will have at the end of the period and the effective annual interest
+                     rate if the nominal interest of \(\text{6}\%\) is compounded:
+
+|  | Calculation | Accumulated amount | Effective annual interest rate |
+| --- | --- | --- | --- |
+| yearly |  |  |  |
+| half-yearly |  |  |  |
+| quarterly |  |  |  |
+| monthly |  |  |  |
+
+**Solution:**
+|  | Calculation | Accumulated amount | Effective annual interest rate |
+| --- | --- | --- | --- |
+| yearly | \(\text{8 000} \left( 1 + \frac{\text{0,06}}{1} \right)^5\) | \(\text{R}\,\text{10 705,80}\) | \(\text{6}\%\) |
+| half-yearly | \(\text{8 000} \left( 1 + \frac{\text{0,06}}{2} \right)^{10}\) | \(\text{R}\,\text{10 751,33}\) | \(\left( 1 + \frac{\text{0,06}}{2} \right)^2 - 1 = \text{6,09}\%\) |
+| quarterly | \(\text{8 000} \left( 1 + \frac{\text{0,06}}{4} \right)^{20}\) | \(\text{R}\,\text{10 774,84}\) | \(\left( 1 + \frac{\text{0,06}}{4} \right)^4 - 1 = \text{6,14}\%\) |
+| monthly | \(\text{8 000} \left( 1 + \frac{\text{0,06}}{12} \right)^{60}\) | \(\text{R}\,\text{10 790,80}\) | \(\left( 1 + \frac{\text{0,06}}{12} \right)^{12} - 1 = \text{6,17}\%\) |

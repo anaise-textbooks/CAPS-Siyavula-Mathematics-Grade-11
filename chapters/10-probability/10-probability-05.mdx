@@ -1,0 +1,295 @@
+## 10.5 Contingency tables (EMBJX)
+
+A contingency table is another tool for keeping a record of the counts or percentages in a
+                        probability problem.
+                        Contingency tables are especially helpful for figuring out whether events are dependent or
+                        independent.
+
+We will be studying two-way contingency tables, where we count the number of outcomes for
+                        \(\text{2}\) events and their complements, making \(\text{4}\) events in total.
+                        A two-way contingency table always shows the counts for the \(\text{4}\) possible combinations
+                        of events, as well as the totals for each event and its complement.
+                        We can use a contingency table to compute the probabilities of various events by computing the
+                        ratios between counts, and to determine whether the events are dependent or independent.
+                        The example below shows a two-way contingency table, representing the outcome of a medical
+                        study.
+
+<Callout type="tip" title="Worked example 13: Contingency tables">
+**Question:**
+A medical trial into the effectiveness of a new medication was carried out.
+                                        \(\text{120}\) females and \(\text{90}\) males took part in the trial.
+                                        Out of those people, \(\text{50}\) females and \(\text{30}\) males responded
+                                        positively to the medication.
+                                        Given below is a contingency table with the given information filled in.
+
+|  | Female | Male | Totals |
+| --- | --- | --- | --- |
+| Positive | \(\text{50}\) | \(\text{30}\) |  |
+| Negative |  |  |  |
+| Totals | \(\text{120}\) | \(\text{90}\) |  |
+
+2. What is the probability that the medicine gives a positive result for
+                                                   females?
+4. What is the probability that the medicine gives a negative result for males?
+6. Was the medication's success independent of gender? Explain.
+
+**Complete the contingency table:**
+The best place to start is always to complete the contingency table.
+                                        Because the each column has to sum up to its total, we can work out the number
+                                        of females and males who responded negatively to the medication.
+                                        Then we can add each row to get the totals on the right hand side of the table.
+
+|  | Female | Male | Totals |
+| --- | --- | --- | --- |
+| Positive | \(\text{50}\) | \(\text{30}\) | \(\text{80}\) |
+| Negative | \(\text{70}\) | \(\text{60}\) | \(\text{130}\) |
+| Totals | \(\text{120}\) | \(\text{90}\) | \(\text{210}\) |
+
+**Compute the required probabilities:**
+The way the first question is phrased, we need to determine the probability that a
+                                        person responds positively if she is female.
+                                        This means that we do not include males in this calculation.
+                                        So, the probability that the medicine gives a positive result for females is the
+                                        ratio between the number of females who got a positive response and the total
+                                        number of females.
+
+                                \begin{align*}
+                                P(\text{positive if female})
+                                &= \frac{n(\text{positive and female})}{n(\text{female})} \\
+                                &= \frac{50}{\text{120}} \\
+                                &= \frac{5}{12}
+                                \end{align*}
+
+
+Similarly, the probability that the medicine gives a negative result for males is:
+
+                                \begin{align*}
+                                P(\text{negative if male})
+                                &= \frac{n(\text{negative and male})}{n(\text{male})} \\
+                                &= \frac{60}{90} \\
+                                &= \frac{2}{3}
+                                \end{align*}
+
+**Independence:**
+We need to determine whether the effect of the medicine and the gender of a
+                                        participant are dependent or independent.
+                                        According to the definition, two events are independent if and only if
+                                        \[P(A\text{ and }B) = P(A) \times P(B)\]
+
+                                        We will look at the events that a participant is female and that the participant
+                                        responded positively to the trial.
+
+                                \begin{align*}
+                                P(\text{female})
+                                &= \frac{n(\text{female})}{n(\text{total trials})} \\
+                                &= \frac{\text{120}}{\text{210}} \\
+                                &= \frac{4}{7}
+                                \end{align*}\begin{align*}
+                                P(\text{positive})
+                                &= \frac{n(\text{positive})}{n(\text{total trials})} \\
+                                &= \frac{80}{\text{210}} \\
+                                &= \frac{8}{21}
+                                \end{align*}\begin{align*}
+                                P(\text{female and positive})
+                                &= \frac{n(\text{female and positive})}{n(\text{total trials})} \\
+                                &= \frac{50}{\text{210}} \\
+                                &= \frac{5}{21}
+                                \end{align*}
+
+
+From these probabilities we can see that
+                                        \[P(\text{female and positive}) \ne P(\text{female}) \times P(\text{positive})\]
+
+                                        and therefore the gender of a participant and the outcome of a trial are
+                                        dependent events.
+</Callout>
+
+<QuizCard id="m11-10-05a" title="Interactive Exercise 10.11" question="What is the value of \(x\) ?" options=[] answer="51" hint="You should enter a number here. If you want to, you can use a space to separate thousands.                Example: 12 800,25 For scientific notation you need to use the multiply symbol                ( ∗ ) and the exponent symbol ( ^ ). For example 6,673 × 10 −11 should be written as: 6,673 ∗ 10^−11" explanation="In a two-way table, the numbers in each column have to add up to the total for that column. In the same way, the numbers in each row have to add up to the total for that row. Looking at the second column: \[             \begin{aligned}               45 + x & = 96\\               \therefore x & = 51             \end{aligned}           \] Submit your answer as:" />
+
+<QuizCard id="m11-10-05a" title="Interactive Exercise 10.11" question="What is the value of \(x\) ?" options=[] answer="17" hint="You should enter a number here. If you want to, you can use a space to separate thousands.                Example: 12 800,25 For scientific notation you need to use the multiply symbol                ( ∗ ) and the exponent symbol ( ^ ). For example 6,673 × 10 −11 should be written as: 6,673 ∗ 10^−11" explanation="In a two-way table, the numbers in each column have to add up to the total for that column. In the same way, the numbers in each row have to add up to the total for that row. Looking at the second column: \[             \begin{aligned}               14 + 3 & = x\\               \therefore x & = 17             \end{aligned}           \] Submit your answer as:" />
+
+<Callout type="tip" title="Worked example 14: Contingency tables">
+**Question:**
+Use the contingency table below to answer the following questions.
+
+|  | Grade \(\text{11}\) | Grade \(\text{12}\) | Totals |
+| --- | --- | --- | --- |
+| Has cellphone | \(\text{59}\) | \(\text{50}\) | \(\text{109}\) |
+| No cellphone | \(\text{6}\) | \(\text{3}\) | \(\text{9}\) |
+| Totals | \(\text{65}\) | \(\text{53}\) | \(\text{118}\) |
+
+2. What is the probability that a learner from Grade \(\text{11}\) has a
+                                                   cellphone?
+4. What is the probability that a learner who does not have a cellphone is from
+                                                   Grade \(\text{11}\).
+6. Are the grade of a learner and whether he has a cellphone or not independent
+                                                   events? Explain your answer.
+
+2. There are \(\text{65}\) learners in Grade \(\text{11}\) and \(\text{59}\) of
+                                                   them have a cellphone.
+                                                   Therefore the probability that a learner from Grade \(\text{11}\) has a
+                                                   cellphone is \(\frac{59}{65}\).
+4. There are \(\text{9}\) learners who do not have a cellphone and \(\text{6}\)
+                                                   of them are in Grade \(\text{11}\).
+                                                   Therefore the probability that a learner who does not have a cellphone
+                                                   is from from Grade \(\text{11}\) is \(\frac{6}{9} = \frac{2}{3}\).
+6. To test for independence, we will consider whether a learner is in Grade
+                                                   \(\text{11}\) and whether a learner has a cellphone.
+                                                   The probability that a learner is in Grade \(\text{11}\) is
+                                                   \(\frac{65}{\text{118}}\).
+                                                   The probability that a learner has a cellphone is
+                                                   \(\frac{\text{109}}{\text{118}}\).
+                                                   The probability that a learner is in Grade \(\text{11}\) and has a
+                                                   cellphone is \(\frac{59}{\text{118}} = \frac{1}{2}\).
+                                                   Since \(\frac{1}{2} \ne
+                                                   \frac{65}{\text{118}}\times\frac{\text{109}}{\text{118}}\) the grade of
+                                                   a learner and whether he has a cellphone are dependent.
+</Callout>
+
+## Contingency tables
+
+### Textbook Exercise 10.6
+
+Use the contingency table below to answer the following questions.
+
+|  | Brown eyes | Not brown eyes | Totals |
+| --- | --- | --- | --- |
+| Black hair | \(\text{50}\) | \(\text{30}\) | \(\text{80}\) |
+| Red hair | \(\text{70}\) | \(\text{80}\) | \(\text{150}\) |
+| Totals | \(\text{120}\) | \(\text{110}\) | \(\text{230}\) |
+
+**Problem:**
+What is the probability that someone with black
+                                                        hair has brown eyes?
+
+**Solution:**
+\(\text{80}\) people have black hair and of those,
+                                                                \(\text{50}\) people also have brown eyes.
+                                                                Therefore the probability that someone with black hair
+                                                                has brown eyes is \(\frac{50}{80} = \frac{5}{8}\).
+
+**Note:** this is different from asking for the
+                                                                probability of having black hair **and**
+                                                                brown eyes.
+                                                                (This probability is computed in part (d) below.)
+                                                                The question was phrased to ask for the probability of
+                                                                having brown eyes **given** that a person
+                                                                has black hair.
+
+**Problem:**
+What is the probability that someone has black
+                                                        hair?
+
+**Solution:**
+Out of a total of \(\text{230}\), \(\text{80}\) have black hair.
+                                                        Therefore the probability that someone has black hair is
+                                                        \(\frac{80}{230} = \frac{8}{23}\).
+
+**Problem:**
+What is the probability that someone has brown
+                                                        eyes?
+
+**Solution:**
+Out of a total of \(\text{230}\), \(\text{120}\) have brown
+                                                        eyes.
+                                                        Therefore the probability that someone has brown eyes is
+                                                        \(\frac{120}{230} = \frac{12}{23}\).
+
+**Problem:**
+Are having black hair and having brown eyes
+                                                        dependent or independent events?
+
+**Solution:**
+We already computed that the probability of having
+
+- black hair is \(\frac{8}{23}\); and
+- brown eyes is \(\frac{12}{23}\).
+
+                                                        Since \(\text{50}\) out of \(\text{230}\) people have black hair
+                                                        and brown eyes, the probability of having black hair and brown
+                                                        eyes is \(\frac{5}{23}\).
+
+
+
+We conclude that having black hair and brown eyes are
+                                                                dependent events since \(\frac{5}{23} \ne \frac{8}{23}
+                                                                \times \frac{12}{23}\).
+
+**Problem:**
+Given the following contingency table, identify the events and
+                                                        determine whether they are dependent or independent.
+
+|  | Location A | Location B | Totals |
+| --- | --- | --- | --- |
+| Buses left late | \(\text{15}\) | \(\text{40}\) | \(\text{55}\) |
+| Buses left on time | \(\text{25}\) | \(\text{20}\) | \(\text{45}\) |
+| Totals | \(\text{40}\) | \(\text{60}\) | \(\text{100}\) |
+
+**Solution:**
+The events are whether a bus leaves from Location A or not and
+                                                        whether a bus left late or not.
+
+We test whether the Location A and the left late events are
+                                                        independent.
+                                                        The total number of buses in the contingency table is
+                                                        \(\text{100}\).
+                                                        We determine the probabilities of the different events from the
+                                                        values in the table —
+
+- leaving from Location A: \(\frac{40}{100} = \text{0,4}\);
+- leaving late: \(\frac{55}{100} = \text{0,55}\);
+- leaving from Location A and leaving late: \(\frac{15}{100} =
+                                                                  \text{0,15}\).
+
+                                                Since \(\text{0,4} \times \text{0,55} = \text{0,22} \ne \text{0,15}\),
+                                                the events are dependent.
+
+**Problem:**
+You are given the following information.
+
+- Events \(A\) and \(B\) are independent.
+- \(P(\text{not }A) = \text{0,3}\).
+- \(P(B) = \text{0,4}\).
+
+                                                Complete the contingency table below.
+
+
+
+|  | \(A\) | not \(A\) | Totals |
+| --- | --- | --- | --- |
+| \(B\) |  |  |  |
+| not \(B\) |  |  |  |
+| Totals |  |  | \(\text{50}\) |
+
+**Solution:**
+From the given table, we see that the total number of outcomes is
+                                                        \(\text{50}\).
+                                                        Since \(P(\text{not } A) = \text{0,3}\) we have \(n(\text{not }
+                                                        A) = \text{0,3}\times\text{50} = 15\) and \(n(A) = 50 - 15 =
+                                                        35\).
+                                                        Since \(P(B) = \text{0,4}\) we have \(n(B) =
+                                                        \text{0,4}\times\text{50} = 20\) and \(n(\text{not } B) = 50 -
+                                                        20 = 30\).
+                                                        From this we can partially complete the table:
+
+|  | \(A\) | not \(A\) | Totals |
+| --- | --- | --- | --- |
+| \(B\) |  |  | \(\text{20}\) |
+| not \(B\) |  |  | \(\text{30}\) |
+| Totals | \(\text{35}\) | \(\text{15}\) | \(\text{50}\) |
+
+Next, we use the fact that \(A\) and \(B\) are independent.
+                                                        From the definition of independence
+                                                        \[P((\text{not } A) \text{ and } B) = P(\text{not } A) \times
+                                                        P(B) = \text{0,3} \times \text{0,4} = \text{0,12}\]
+
+                                                        Therefore \(n((\text{not } A) \text{ and } B) = \text{0,12}
+                                                        \times \text{50} = 6\).
+                                                        We find the rest of the values in the table by making sure that
+                                                        each row and column sums to its total.
+
+|  | \(A\) | not \(A\) | Totals |
+| --- | --- | --- | --- |
+| \(B\) | \(\text{14}\) | \(\text{6}\) | \(\text{20}\) |
+| not \(B\) | \(\text{21}\) | \(\text{9}\) | \(\text{30}\) |
+| Totals | \(\text{35}\) | \(\text{15}\) | \(\text{50}\) |

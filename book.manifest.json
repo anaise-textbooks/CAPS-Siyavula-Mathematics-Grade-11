@@ -1,0 +1,552 @@
+{
+  "$schema": "https://anaise.org/schemas/book.v1.json",
+  "id": "book-caps-siyavula-math-grade-11",
+  "title": "Mathematics Grade 11 (CAPS)",
+  "subtitle": "Complete CAPS-aligned digital textbook for Grade 11 Mathematics by Siyavula Education.",
+  "version": "1.0.0",
+  "coverImage": null,
+  "thumbnail": null,
+  "authors": [
+    {
+      "name": "Siyavula Education",
+      "affiliation": "Siyavula Open Textbooks Project"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "toc": [
+    {
+      "id": "ch01",
+      "title": "Chapter 1: Exponents and surds",
+      "sections": [
+        {
+          "id": "sec-01-01-01-exponents-and-surds-01",
+          "title": "1.1 Revision",
+          "path": "chapters/01-exponents-and-surds/01-exponents-and-surds-01.mdx",
+          "estimatedMinutes": 23
+        },
+        {
+          "id": "sec-01-02-01-exponents-and-surds-02",
+          "title": "1.2 Rational exponents and surds",
+          "path": "chapters/01-exponents-and-surds/01-exponents-and-surds-02.mdx",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "sec-01-03-01-exponents-and-surds-03",
+          "title": "1.3 Solving surd equations",
+          "path": "chapters/01-exponents-and-surds/01-exponents-and-surds-03.mdx",
+          "estimatedMinutes": 14
+        },
+        {
+          "id": "sec-01-04-01-exponents-and-surds-04",
+          "title": "1.4 Applications of exponentials",
+          "path": "chapters/01-exponents-and-surds/01-exponents-and-surds-04.mdx",
+          "estimatedMinutes": 6
+        },
+        {
+          "id": "sec-01-05-01-exponents-and-surds-05",
+          "title": "1.5 Summary",
+          "path": "chapters/01-exponents-and-surds/01-exponents-and-surds-05.mdx",
+          "estimatedMinutes": 24
+        },
+        {
+          "id": "sec-01-06-01-exponents-and-surds-06",
+          "title": "End of chapter exercises",
+          "path": "chapters/01-exponents-and-surds/01-exponents-and-surds-06.mdx",
+          "estimatedMinutes": 9
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "Chapter 2: Equations and inequalities",
+      "sections": [
+        {
+          "id": "sec-02-01-02-equations-and-inequalities-01",
+          "title": "2.1 Revision",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-01.mdx",
+          "estimatedMinutes": 24
+        },
+        {
+          "id": "sec-02-02-02-equations-and-inequalities-02",
+          "title": "2.2 Completing the square",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-02.mdx",
+          "estimatedMinutes": 10
+        },
+        {
+          "id": "sec-02-03-02-equations-and-inequalities-03",
+          "title": "2.3 Quadratic formula",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-03.mdx",
+          "estimatedMinutes": 7
+        },
+        {
+          "id": "sec-02-04-02-equations-and-inequalities-04",
+          "title": "2.4 Substitution",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-04.mdx",
+          "estimatedMinutes": 17
+        },
+        {
+          "id": "sec-02-05-02-equations-and-inequalities-05",
+          "title": "2.5 Finding the equation",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-05.mdx",
+          "estimatedMinutes": 16
+        },
+        {
+          "id": "sec-02-06-02-equations-and-inequalities-06",
+          "title": "2.6 Nature of roots",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-06.mdx",
+          "estimatedMinutes": 24
+        },
+        {
+          "id": "sec-02-07-02-equations-and-inequalities-07",
+          "title": "2.7 Quadratic inequalities",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-07.mdx",
+          "estimatedMinutes": 20
+        },
+        {
+          "id": "sec-02-08-02-equations-and-inequalities-08",
+          "title": "2.8 Simultaneous equations",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-08.mdx",
+          "estimatedMinutes": 28
+        },
+        {
+          "id": "sec-02-09-02-equations-and-inequalities-09",
+          "title": "2.9 Word problems",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-09.mdx",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "sec-02-10-02-equations-and-inequalities-10",
+          "title": "2.10 Summary",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-10.mdx",
+          "estimatedMinutes": 31
+        },
+        {
+          "id": "sec-02-11-02-equations-and-inequalities-11",
+          "title": "End of chapter exercises",
+          "path": "chapters/02-equations-and-inequalities/02-equations-and-inequalities-11.mdx",
+          "estimatedMinutes": 26
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "Chapter 3: Number patterns",
+      "sections": [
+        {
+          "id": "sec-03-01-03-number-patterns-01",
+          "title": "3.1 Revision",
+          "path": "chapters/03-number-patterns/03-number-patterns-01.mdx",
+          "estimatedMinutes": 9
+        },
+        {
+          "id": "sec-03-02-03-number-patterns-02",
+          "title": "3.2 Quadratic sequences",
+          "path": "chapters/03-number-patterns/03-number-patterns-02.mdx",
+          "estimatedMinutes": 63
+        },
+        {
+          "id": "sec-03-03-03-number-patterns-03",
+          "title": "3.3 Summary",
+          "path": "chapters/03-number-patterns/03-number-patterns-03.mdx",
+          "estimatedMinutes": 9
+        },
+        {
+          "id": "sec-03-04-03-number-patterns-04",
+          "title": "End of chapter exercises",
+          "path": "chapters/03-number-patterns/03-number-patterns-04.mdx",
+          "estimatedMinutes": 15
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "Chapter 4: Analytical geometry",
+      "sections": [
+        {
+          "id": "sec-04-01-04-analytical-geometry-01",
+          "title": "4.1 Revision",
+          "path": "chapters/04-analytical-geometry/04-analytical-geometry-01.mdx",
+          "estimatedMinutes": 17
+        },
+        {
+          "id": "sec-04-02-04-analytical-geometry-02",
+          "title": "4.2 Equation of a line",
+          "path": "chapters/04-analytical-geometry/04-analytical-geometry-02.mdx",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "sec-04-03-04-analytical-geometry-03",
+          "title": "4.3 Inclination of a line",
+          "path": "chapters/04-analytical-geometry/04-analytical-geometry-03.mdx",
+          "estimatedMinutes": 21
+        },
+        {
+          "id": "sec-04-04-04-analytical-geometry-04",
+          "title": "4.4 Parallel lines",
+          "path": "chapters/04-analytical-geometry/04-analytical-geometry-04.mdx",
+          "estimatedMinutes": 11
+        },
+        {
+          "id": "sec-04-05-04-analytical-geometry-05",
+          "title": "4.5 Perpendicular lines",
+          "path": "chapters/04-analytical-geometry/04-analytical-geometry-05.mdx",
+          "estimatedMinutes": 14
+        },
+        {
+          "id": "sec-04-06-04-analytical-geometry-06",
+          "title": "4.6 Summary",
+          "path": "chapters/04-analytical-geometry/04-analytical-geometry-06.mdx",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "sec-04-07-04-analytical-geometry-07",
+          "title": "End of chapter exercises",
+          "path": "chapters/04-analytical-geometry/04-analytical-geometry-07.mdx",
+          "estimatedMinutes": 13
+        }
+      ]
+    },
+    {
+      "id": "ch05",
+      "title": "Chapter 5: Functions",
+      "sections": [
+        {
+          "id": "sec-05-01-05-functions-01",
+          "title": "5.1 Quadratic functions",
+          "path": "chapters/05-functions/05-functions-01.mdx",
+          "estimatedMinutes": 67
+        },
+        {
+          "id": "sec-05-02-05-functions-02",
+          "title": "5.2 Average gradient",
+          "path": "chapters/05-functions/05-functions-02.mdx",
+          "estimatedMinutes": 6
+        },
+        {
+          "id": "sec-05-03-05-functions-03",
+          "title": "5.3 Hyperbolic functions",
+          "path": "chapters/05-functions/05-functions-03.mdx",
+          "estimatedMinutes": 35
+        },
+        {
+          "id": "sec-05-04-05-functions-04",
+          "title": "5.4 Exponential functions",
+          "path": "chapters/05-functions/05-functions-04.mdx",
+          "estimatedMinutes": 27
+        },
+        {
+          "id": "sec-05-05-05-functions-05",
+          "title": "5.5 The sine function",
+          "path": "chapters/05-functions/05-functions-05.mdx",
+          "estimatedMinutes": 24
+        },
+        {
+          "id": "sec-05-06-05-functions-06",
+          "title": "5.6 The cosine function",
+          "path": "chapters/05-functions/05-functions-06.mdx",
+          "estimatedMinutes": 24
+        },
+        {
+          "id": "sec-05-07-05-functions-07",
+          "title": "5.7 The tangent function",
+          "path": "chapters/05-functions/05-functions-07.mdx",
+          "estimatedMinutes": 23
+        },
+        {
+          "id": "sec-05-08-05-functions-08",
+          "title": "5.8 Summary",
+          "path": "chapters/05-functions/05-functions-08.mdx",
+          "estimatedMinutes": 27
+        },
+        {
+          "id": "sec-05-09-05-functions-09",
+          "title": "End of chapter exercises",
+          "path": "chapters/05-functions/05-functions-09.mdx",
+          "estimatedMinutes": 5
+        }
+      ]
+    },
+    {
+      "id": "ch06",
+      "title": "Chapter 6: Trigonometry",
+      "sections": [
+        {
+          "id": "sec-06-01-06-trigonometry-01",
+          "title": "6.1 Revision",
+          "path": "chapters/06-trigonometry/06-trigonometry-01.mdx",
+          "estimatedMinutes": 12
+        },
+        {
+          "id": "sec-06-02-06-trigonometry-02",
+          "title": "6.2 Trigonometric identities",
+          "path": "chapters/06-trigonometry/06-trigonometry-02.mdx",
+          "estimatedMinutes": 11
+        },
+        {
+          "id": "sec-06-03-06-trigonometry-03",
+          "title": "6.3 Reduction formula",
+          "path": "chapters/06-trigonometry/06-trigonometry-03.mdx",
+          "estimatedMinutes": 22
+        },
+        {
+          "id": "sec-06-04-06-trigonometry-04",
+          "title": "6.4 Trigonometric equations",
+          "path": "chapters/06-trigonometry/06-trigonometry-04.mdx",
+          "estimatedMinutes": 41
+        },
+        {
+          "id": "sec-06-05-06-trigonometry-05",
+          "title": "6.5 Area, sine, and cosine rules",
+          "path": "chapters/06-trigonometry/06-trigonometry-05.mdx",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "sec-06-06-06-trigonometry-06",
+          "title": "6.6 Summary",
+          "path": "chapters/06-trigonometry/06-trigonometry-06.mdx",
+          "estimatedMinutes": 7
+        },
+        {
+          "id": "sec-06-07-06-trigonometry-07",
+          "title": "End of chapter exercises",
+          "path": "chapters/06-trigonometry/06-trigonometry-07.mdx",
+          "estimatedMinutes": 11
+        }
+      ]
+    },
+    {
+      "id": "ch07",
+      "title": "Chapter 7: Measurement",
+      "sections": [
+        {
+          "id": "sec-07-01-07-measurement-01",
+          "title": "7.1 Area of a polygon",
+          "path": "chapters/07-measurement/07-measurement-01.mdx",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "sec-07-02-07-measurement-02",
+          "title": "7.2 Right prisms and cylinders",
+          "path": "chapters/07-measurement/07-measurement-02.mdx",
+          "estimatedMinutes": 22
+        },
+        {
+          "id": "sec-07-03-07-measurement-03",
+          "title": "7.3 Right pyramids, right cones and spheres",
+          "path": "chapters/07-measurement/07-measurement-03.mdx",
+          "estimatedMinutes": 26
+        },
+        {
+          "id": "sec-07-04-07-measurement-04",
+          "title": "7.4 Multiplying a dimension by a constant factor",
+          "path": "chapters/07-measurement/07-measurement-04.mdx",
+          "estimatedMinutes": 7
+        },
+        {
+          "id": "sec-07-05-07-measurement-05",
+          "title": "7.5 Summary",
+          "path": "chapters/07-measurement/07-measurement-05.mdx",
+          "estimatedMinutes": 5
+        },
+        {
+          "id": "sec-07-06-07-measurement-06",
+          "title": "End of chapter exercises",
+          "path": "chapters/07-measurement/07-measurement-06.mdx",
+          "estimatedMinutes": 5
+        }
+      ]
+    },
+    {
+      "id": "ch08",
+      "title": "Chapter 8: Euclidean geometry",
+      "sections": [
+        {
+          "id": "sec-08-01-08-euclidean-geometry-01",
+          "title": "8.1 Revision",
+          "path": "chapters/08-euclidean-geometry/08-euclidean-geometry-01.mdx",
+          "estimatedMinutes": 6
+        },
+        {
+          "id": "sec-08-02-08-euclidean-geometry-02",
+          "title": "8.2 Circle geometry",
+          "path": "chapters/08-euclidean-geometry/08-euclidean-geometry-02.mdx",
+          "estimatedMinutes": 39
+        },
+        {
+          "id": "sec-08-03-08-euclidean-geometry-03",
+          "title": "8.3 Summary",
+          "path": "chapters/08-euclidean-geometry/08-euclidean-geometry-03.mdx",
+          "estimatedMinutes": 7
+        },
+        {
+          "id": "sec-08-04-08-euclidean-geometry-04",
+          "title": "End of chapter exercises",
+          "path": "chapters/08-euclidean-geometry/08-euclidean-geometry-04.mdx",
+          "estimatedMinutes": 14
+        }
+      ]
+    },
+    {
+      "id": "ch09",
+      "title": "Chapter 9: Finance growth and decay",
+      "sections": [
+        {
+          "id": "sec-09-01-09-finance-growth-and-decay-01",
+          "title": "9.1 Revision",
+          "path": "chapters/09-finance-growth-and-decay/09-finance-growth-and-decay-01.mdx",
+          "estimatedMinutes": 5
+        },
+        {
+          "id": "sec-09-02-09-finance-growth-and-decay-02",
+          "title": "9.2 Simple and compound depreciation",
+          "path": "chapters/09-finance-growth-and-decay/09-finance-growth-and-decay-02.mdx",
+          "estimatedMinutes": 31
+        },
+        {
+          "id": "sec-09-03-09-finance-growth-and-decay-03",
+          "title": "9.3 Timelines",
+          "path": "chapters/09-finance-growth-and-decay/09-finance-growth-and-decay-03.mdx",
+          "estimatedMinutes": 23
+        },
+        {
+          "id": "sec-09-04-09-finance-growth-and-decay-04",
+          "title": "9.4 Nominal and effective interest rates",
+          "path": "chapters/09-finance-growth-and-decay/09-finance-growth-and-decay-04.mdx",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "sec-09-05-09-finance-growth-and-decay-05",
+          "title": "9.5 Summary",
+          "path": "chapters/09-finance-growth-and-decay/09-finance-growth-and-decay-05.mdx",
+          "estimatedMinutes": 5
+        },
+        {
+          "id": "sec-09-06-09-finance-growth-and-decay-06",
+          "title": "End of chapter exercises",
+          "path": "chapters/09-finance-growth-and-decay/09-finance-growth-and-decay-06.mdx",
+          "estimatedMinutes": 9
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "title": "Chapter 10: Probability",
+      "sections": [
+        {
+          "id": "sec-10-01-10-probability-01",
+          "title": "10.1 Revision",
+          "path": "chapters/10-probability/10-probability-01.mdx",
+          "estimatedMinutes": 38
+        },
+        {
+          "id": "sec-10-02-10-probability-02",
+          "title": "10.2 Dependent and independent events",
+          "path": "chapters/10-probability/10-probability-02.mdx",
+          "estimatedMinutes": 18
+        },
+        {
+          "id": "sec-10-03-10-probability-03",
+          "title": "10.3 More Venn diagrams",
+          "path": "chapters/10-probability/10-probability-03.mdx",
+          "estimatedMinutes": 14
+        },
+        {
+          "id": "sec-10-04-10-probability-04",
+          "title": "10.4 Tree diagrams",
+          "path": "chapters/10-probability/10-probability-04.mdx",
+          "estimatedMinutes": 13
+        },
+        {
+          "id": "sec-10-05-10-probability-05",
+          "title": "10.5 Contingency tables",
+          "path": "chapters/10-probability/10-probability-05.mdx",
+          "estimatedMinutes": 12
+        },
+        {
+          "id": "sec-10-06-10-probability-06",
+          "title": "10.6 Summary",
+          "path": "chapters/10-probability/10-probability-06.mdx",
+          "estimatedMinutes": 5
+        },
+        {
+          "id": "sec-10-07-10-probability-07",
+          "title": "End of chapter exercises",
+          "path": "chapters/10-probability/10-probability-07.mdx",
+          "estimatedMinutes": 14
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "title": "Chapter 11: Statistics",
+      "sections": [
+        {
+          "id": "sec-11-01-11-statistics-01",
+          "title": "11.1 Revision",
+          "path": "chapters/11-statistics/11-statistics-01.mdx",
+          "estimatedMinutes": 14
+        },
+        {
+          "id": "sec-11-02-11-statistics-02",
+          "title": "11.2 Histograms",
+          "path": "chapters/11-statistics/11-statistics-02.mdx",
+          "estimatedMinutes": 9
+        },
+        {
+          "id": "sec-11-03-11-statistics-03",
+          "title": "11.3 Ogives",
+          "path": "chapters/11-statistics/11-statistics-03.mdx",
+          "estimatedMinutes": 15
+        },
+        {
+          "id": "sec-11-04-11-statistics-04",
+          "title": "11.4 Variance and standard deviation",
+          "path": "chapters/11-statistics/11-statistics-04.mdx",
+          "estimatedMinutes": 23
+        },
+        {
+          "id": "sec-11-05-11-statistics-05",
+          "title": "11.5 Symmetric and skewed data",
+          "path": "chapters/11-statistics/11-statistics-05.mdx",
+          "estimatedMinutes": 5
+        },
+        {
+          "id": "sec-11-06-11-statistics-06",
+          "title": "11.6 Identification of outliers",
+          "path": "chapters/11-statistics/11-statistics-06.mdx",
+          "estimatedMinutes": 8
+        },
+        {
+          "id": "sec-11-07-11-statistics-07",
+          "title": "11.7 Summary",
+          "path": "chapters/11-statistics/11-statistics-07.mdx",
+          "estimatedMinutes": 5
+        },
+        {
+          "id": "sec-11-08-11-statistics-08",
+          "title": "End of chapter exercises",
+          "path": "chapters/11-statistics/11-statistics-08.mdx",
+          "estimatedMinutes": 7
+        }
+      ]
+    },
+    {
+      "id": "ch12",
+      "title": "Chapter 12: Linear programming",
+      "sections": [
+        {
+          "id": "sec-12-01-12-linear-programming-01",
+          "title": "12.1 Introduction",
+          "path": "chapters/12-linear-programming/12-linear-programming-01.mdx",
+          "estimatedMinutes": 17
+        },
+        {
+          "id": "sec-12-02-12-linear-programming-02",
+          "title": "Optimisation",
+          "path": "chapters/12-linear-programming/12-linear-programming-02.mdx",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}
